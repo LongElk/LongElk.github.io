@@ -4,5 +4,5 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: 'LongElkのBlog',
     description: '',
-    base: '/',
+    base: '/MyBlog/',
 })
