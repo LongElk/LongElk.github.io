@@ -1,0 +1,59 @@
+/* Y式新书体 */
+@font-face {
+    font-family: 'Yshi';
+    src: url('../../public/fonts/YShiNewPenShuti.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 寒蝉半圆体 */
+@font-face {
+    font-family: 'Chill Round';
+    src: url('../../public/fonts/ChillRoundM.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 霞鹜晰黑 */
+@font-face {
+    font-family: 'LXGW XiHei';
+    src: url('../../public/fonts/LXGWXiHeiMN.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Cascadia Code */
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('../../public/fonts/Cascadia-Code.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Noto Color Emoji */
+@font-face {
+    font-family: 'Noto Color Emoji';
+    src: url('../../public/fonts/NotoColorEmoji.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Yshi', sans-serif;
+}
+
+h1 {
+    font-family: 'LxGW XiHei', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Chill Round', sans-serif;
+}
+
+p, code, pre {
+    font-family: 'Cascadia Code',sans-serif;
+}
+
+.emoji {
+    font-family: 'Noto Color Emoji';
+}
