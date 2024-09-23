@@ -16,7 +16,7 @@ export default defineConfig({
         // 导航栏
         nav: [
           { text: '首页', link: '/' },
-          { text: '博客', link: '/blog/' },
+          { text: '博客', link: '/posts/' },
           { text: '关于我', link: '/about' }
         ],   
         // 侧边栏（以博客页面为例）
