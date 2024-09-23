@@ -21,7 +21,7 @@ export default defineConfig({
         ],   
         // 侧边栏（以博客页面为例）
         sidebar: {
-          '/blog/': [
+          '/posts/': [
             {
               text: '博客文章',
               items: [
